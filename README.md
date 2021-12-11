@@ -13,3 +13,11 @@ git clone https://github.com/machadodan/estoque.git
 
 cd virtualenvs/dev_django
 python manage.py migrate
+
+##Links
+
+[python-decouple]https://github.com/machadodan/python-decouple
+
+[package-of-the-week-python-decouple]https://simpleisbetterthancomplex.com/2015/11/26/package-of-the-week-python-decouple.html
+
+
