@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     #myapps
     'projeto.core',
     'projeto.produto',
+    'projeto.estoque',
 
 ]
 
