@@ -1,5 +1,6 @@
 <!--https://getbootstrap.com/docs/4.0/getting-started/introduction/#starter-template-->
-<!doctype html>
+{% load static %}
+
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -14,17 +15,7 @@
     <!--fon awesome-->
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 
-      <style>
-          body{
-          margin-top: 60px;
-          }
-          .ok {
-            color: green;
-          }
-           .no {
-             color: red;
-       }
-      </style>
+     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
       {% block css %} {%  endblock css %}
 
