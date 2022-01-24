@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d943688c-8e6d-44aa-821f-5d6ff0abaf66" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/projeto/estoque/models.py" afterPath="$PROJECT_DIR$/projeto/estoque/models.py" />
-      <change beforePath="$PROJECT_DIR$/projeto/estoque/templates/estoque_detail.html" afterPath="$PROJECT_DIR$/projeto/estoque/templates/estoque_detail.html" />
-      <change beforePath="$PROJECT_DIR$/projeto/estoque/urls.py" afterPath="$PROJECT_DIR$/projeto/estoque/urls.py" />
-      <change beforePath="$PROJECT_DIR$/projeto/estoque/views.py" afterPath="$PROJECT_DIR$/projeto/estoque/views.py" />
-      <change beforePath="$PROJECT_DIR$/projeto/settings.py" afterPath="$PROJECT_DIR$/projeto/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -225,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639522670888</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fazendo login.Close #35">
+      <created>1643063733534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643063733534</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -259,7 +261,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="criação produto_list" />
-    <option name="LAST_COMMIT_MESSAGE" value="criação produto_list" />
+    <MESSAGE value="Fazendo login.Close #35" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fazendo login.Close #35" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
