@@ -52,7 +52,7 @@ class EstoqueItens(models.Model):
     estoque = models.ForeignKey(Estoque, on_delete=models.CASCADE, related_name='estoques')
     produto = models.ForeignKey(Produto, on_delete=models.CASCADE)
     quantidade = models.PositiveIntegerField()
-    saldo = models.PositiveIntegerField()
+    saldo = models.PositiveIntegerField(blank=True)
 
     class Meta:
      ordering = ('pk',)
