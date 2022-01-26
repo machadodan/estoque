@@ -2,6 +2,15 @@
 
  {% block content %}
 
+  <div class="row">
+    <div class="col-sm-6">
+      <form action="." method="GET" class="form-inline">
+        <input type="text" id="search" name="search" class="form-control"  placeholder="Digite produto busca">
+        <input type="submit" class="btn btn-primary" style="margin-left: 10px;" value="OK">
+        </form>
+    </div>
+ </div>
+
 <div class="page-header">
     <h2>Lista de Produtos
         <span class="float-right">
@@ -12,6 +21,7 @@
             </a>
         </span>
     </h2>
+
     {% if object_list %}
 
     <table class="table table-striped">

@@ -62,9 +62,14 @@
 
     $(document).on('change', '.clQuantidade', function() {
         quantidade = $(this).val();
+        //calculo sabtração estoque
         saldo =  Number(estoque) - Number(quantidade);
         campo = $(this).attr('id').replace('quantidade', 'saldo')
-
+        if(saldo < 0){
+            alert('Quantidade digitada maior que saldo disponivel ou negativa.')
+            $('#'+campo).val('')
+            return
+        }
           //Desabilita o campo saldo
         $('#'+campo).prop('type', 'hidden')
         //atribui o saldo ao campo saldo
