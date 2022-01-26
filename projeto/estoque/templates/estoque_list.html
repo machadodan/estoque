@@ -11,6 +11,7 @@
             </a>
         </span>
     </h2>
+
 {% if object_list %}
     <table class="table table-striped">
         <thead>
@@ -34,8 +35,11 @@
         {% endfor %}
 
         </tbody>
+    </table>
 {% else %}
     <p class="alert alert-warning">Sem itens na lista </p>
 {% endif %}
+
+{% include "includes/pagination.html" %}
 
 {% endblock content %}

@@ -6,6 +6,7 @@ app_name = 'estoque'
 entrada_patterns = [
     path('', v.EstoqueEntradaList.as_view(), name='estoque_entrada_list'),
     path('add/', v.estoque_entrada_add, name='estoque_entrada_add'),
+
 ]
 
 saida_patterns = [
