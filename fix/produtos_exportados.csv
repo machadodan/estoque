@@ -1,0 +1,18 @@
+importado,ncm,produto,preco,estoque,estoque_minimo
+True,47914320,Caderno 10 matérias,28.72,39,0
+False,67585366,Caderno capa dura 200 folhas,12.03,80,0
+False,46182965,Caneta Esferográfica azul,33.96,102,0
+True,18066799,Caneta Esferográfica preta,14.67,53,0
+True,55479231,Caneta Esferográfica vermelha,23.41,18,0
+True,59719920,Durex,12.96,57,0
+True,71353056,Giz de cera 12 cores,18.89,68,0
+True,27346842,Lapis,33.56,80,0
+False,55501092,Lapis de cor 24 cores,1.76,179,0
+False,58027918,Lapiseira 0.3 mm,17.58,150,0
+False,62061619,Lapiseira 0.5 mm,6.69,202,0
+True,95004301,Lapiseira 0.7 mm,8.92,10,0
+False,76304821,Papel sulfite A4 pacote 100 folhas,37.51,40,0
+False,98139569,Pasta elástica,5.49,120,0
+False,18330739,Tesoura,6.56,53,0
+True,certo,compra aqui,20.00,98,3
+True,1414,tesoura,12.00,90,5

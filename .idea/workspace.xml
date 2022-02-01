@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d943688c-8e6d-44aa-821f-5d6ff0abaf66" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/projeto/core/templates/includes/pagination.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/projeto/produto/templates/produto_import.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/projeto/estoque/templates/estoque_list.html" afterPath="$PROJECT_DIR$/projeto/estoque/templates/estoque_list.html" />
-      <change beforePath="$PROJECT_DIR$/projeto/estoque/urls.py" afterPath="$PROJECT_DIR$/projeto/estoque/urls.py" />
-      <change beforePath="$PROJECT_DIR$/projeto/estoque/views.py" afterPath="$PROJECT_DIR$/projeto/estoque/views.py" />
+      <change beforePath="$PROJECT_DIR$/projeto/core/static/js/estoque_entrada.js" afterPath="$PROJECT_DIR$/projeto/core/static/js/estoque_entrada.js" />
+      <change beforePath="$PROJECT_DIR$/projeto/core/static/js/estoque_saida.js" afterPath="$PROJECT_DIR$/projeto/core/static/js/estoque_saida.js" />
+      <change beforePath="$PROJECT_DIR$/projeto/core/templates/includes/nav.html" afterPath="$PROJECT_DIR$/projeto/core/templates/includes/nav.html" />
       <change beforePath="$PROJECT_DIR$/projeto/produto/templates/produto_list.html" afterPath="$PROJECT_DIR$/projeto/produto/templates/produto_list.html" />
       <change beforePath="$PROJECT_DIR$/projeto/produto/urls.py" afterPath="$PROJECT_DIR$/projeto/produto/urls.py" />
       <change beforePath="$PROJECT_DIR$/projeto/produto/views.py" afterPath="$PROJECT_DIR$/projeto/produto/views.py" />
@@ -20,27 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projeto/estoque/views.py">
+      <file leaf-file-name="produto_form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projeto/produto/templates/produto_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-                <element signature="e#457#718#0" expanded="false" />
-                <element signature="e#1130#1358#0" expanded="false" />
-                <element signature="e#3271#3526#0" expanded="false" />
-                <element signature="e#3924#4159#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="estoque_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projeto/estoque/templates/estoque_list.html">
+      <file leaf-file-name="produto_import.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projeto/produto/templates/produto_import.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="40" />
+            <state relative-caret-position="136">
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -49,11 +43,54 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projeto/produto/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="322">
+              <caret line="98" column="42" lean-forward="false" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="estoque_saida.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projeto/core/static/js/estoque_saida.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="76" column="62" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="estoque_entrada.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projeto/core/static/js/estoque_entrada.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="79" column="61" lean-forward="true" selection-start-line="79" selection-start-column="61" selection-end-line="79" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="produto_list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projeto/produto/templates/produto_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1360">
+              <caret line="80" column="35" lean-forward="false" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#p#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projeto/core/templates/includes/nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="92" lean-forward="false" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,42 +98,9 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projeto/produto/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="204">
+              <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projeto/estoque/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projeto/core/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="40" column="99" lean-forward="false" selection-start-line="40" selection-start-column="99" selection-end-line="40" selection-end-column="99" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pagination.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projeto/core/templates/includes/pagination.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-              <folding>
-                <element signature="e#277#284#1" expanded="true" />
-                <element signature="e#1600#1607#1" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -156,20 +160,21 @@
         <option value="$PROJECT_DIR$/projeto/produto/templates/produto_form.html" />
         <option value="$PROJECT_DIR$/projeto/estoque/templates/estoque_detail.html" />
         <option value="$PROJECT_DIR$/projeto/urls.py" />
-        <option value="$PROJECT_DIR$/projeto/core/templates/includes/nav.html" />
-        <option value="$PROJECT_DIR$/projeto/core/static/js/estoque_saida.js" />
         <option value="$PROJECT_DIR$/projeto/estoque/models.py" />
         <option value="$PROJECT_DIR$/projeto/settings.py" />
         <option value="$PROJECT_DIR$/projeto/estoque/forms.py" />
         <option value="$PROJECT_DIR$/projeto/core/templates/base.html" />
-        <option value="$PROJECT_DIR$/projeto/core/static/js/estoque_entrada.js" />
-        <option value="$PROJECT_DIR$/projeto/produto/templates/produto_list.html" />
-        <option value="$PROJECT_DIR$/projeto/produto/urls.py" />
         <option value="$PROJECT_DIR$/projeto/core/templates/includes/pagination.html" />
-        <option value="$PROJECT_DIR$/projeto/produto/views.py" />
         <option value="$PROJECT_DIR$/projeto/estoque/urls.py" />
         <option value="$PROJECT_DIR$/projeto/estoque/templates/estoque_list.html" />
         <option value="$PROJECT_DIR$/projeto/estoque/views.py" />
+        <option value="$PROJECT_DIR$/projeto/produto/templates/produto_import.html" />
+        <option value="$PROJECT_DIR$/projeto/core/templates/includes/nav.html" />
+        <option value="$PROJECT_DIR$/projeto/produto/templates/produto_list.html" />
+        <option value="$PROJECT_DIR$/projeto/produto/urls.py" />
+        <option value="$PROJECT_DIR$/projeto/produto/views.py" />
+        <option value="$PROJECT_DIR$/projeto/core/static/js/estoque_saida.js" />
+        <option value="$PROJECT_DIR$/projeto/core/static/js/estoque_entrada.js" />
       </list>
     </option>
   </component>
@@ -213,12 +218,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="estoque" type="b2602c69:ProjectViewProjectNode" />
               <item name="estoque" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="estoque" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estoque" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="estoque" type="b2602c69:ProjectViewProjectNode" />
@@ -243,48 +255,19 @@
               <item name="estoque" type="462c0819:PsiDirectoryNode" />
               <item name="projeto" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="estoque" type="b2602c69:ProjectViewProjectNode" />
-              <item name="estoque" type="462c0819:PsiDirectoryNode" />
-              <item name="projeto" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="estoque" type="b2602c69:ProjectViewProjectNode" />
               <item name="estoque" type="462c0819:PsiDirectoryNode" />
               <item name="projeto" type="462c0819:PsiDirectoryNode" />
               <item name="estoque" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="estoque" type="b2602c69:ProjectViewProjectNode" />
-              <item name="estoque" type="462c0819:PsiDirectoryNode" />
-              <item name="projeto" type="462c0819:PsiDirectoryNode" />
-              <item name="estoque" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="estoque" type="b2602c69:ProjectViewProjectNode" />
-              <item name="estoque" type="462c0819:PsiDirectoryNode" />
-              <item name="projeto" type="462c0819:PsiDirectoryNode" />
-              <item name="produto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="estoque" type="b2602c69:ProjectViewProjectNode" />
-              <item name="estoque" type="462c0819:PsiDirectoryNode" />
-              <item name="projeto" type="462c0819:PsiDirectoryNode" />
-              <item name="produto" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,6 +276,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ProjetosPhyton\labs\estoque\projeto\produto\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\ProjetosPhyton\labs\estoque\projeto" />
       <recent name="E:\ProjetosPhyton\labs\estoque" />
@@ -380,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643234618269</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Criar paginacao.Close #42">
+      <created>1643238701266</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643238701266</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -419,7 +412,8 @@
     <MESSAGE value="Desabilitar campo 'Saldo' na entrada e saida.Close #39" />
     <MESSAGE value="Criar campo de busca de produtos.Close #40" />
     <MESSAGE value="Criar select2.Close #41" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criar select2.Close #41" />
+    <MESSAGE value="Criar paginacao.Close #42" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criar paginacao.Close #42" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -433,13 +427,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -613,13 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projeto/produto/templates/produto_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projeto/core/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -655,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projeto/core/templates/includes/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="70" lean-forward="true" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projeto/estoque/templates/estoque_entrada_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1428">
@@ -673,17 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#24#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto/core/static/js/estoque_saida.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,15 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto/core/static/js/estoque_entrada.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,76 +670,103 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding>
-            <element signature="e#277#284#1" expanded="true" />
-            <element signature="e#1600#1607#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projeto/core/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
+        <state relative-caret-position="680">
           <caret line="40" column="99" lean-forward="false" selection-start-line="40" selection-start-column="99" selection-end-line="40" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto/produto/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto/produto/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto/produto/templates/produto_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projeto/estoque/templates/estoque_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
+        <state relative-caret-position="714">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projeto/estoque/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="33" />
-          <folding />
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projeto/estoque/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="47">
           <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/produto/templates/produto_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/core/templates/includes/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="92" lean-forward="false" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/produto/templates/produto_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="35" lean-forward="false" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
           <folding>
-            <element signature="e#0#57#0" expanded="true" />
-            <element signature="e#457#718#0" expanded="false" />
-            <element signature="e#1130#1358#0" expanded="false" />
-            <element signature="e#3271#3526#0" expanded="false" />
-            <element signature="e#3924#4159#0" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/produto/templates/produto_import.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/produto/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/produto/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="98" column="42" lean-forward="false" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/core/static/js/estoque_saida.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="76" column="62" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto/core/static/js/estoque_entrada.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="79" column="61" lean-forward="true" selection-start-line="79" selection-start-column="61" selection-end-line="79" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
