@@ -9,6 +9,13 @@ class Produto(models.Model):
     preco = models.DecimalField('preço', max_digits=7, decimal_places=2)
     estoque = models.IntegerField('estoque atual')
     estoque_minimo = models.PositiveIntegerField('estoque minimo', default=0)
+    data = models.DateField(null=True, blank=True)
+    categoria = models.ForeignKey(
+        'Categoria',
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True
+    )
 
     class Meta:
         ordering = ('produto',)
@@ -25,5 +32,14 @@ class Produto(models.Model):
             'produto': self.produto,
             'estoque': self.estoque,
         }
+
+class Categoria(models.Model):
+    categoria = models.CharField(max_length=100, unique=True)
+
+    class Meta:
+        ordering=('categoria',)
+
+        def __str__(self):
+            return self.categoria
 
 
