@@ -14,9 +14,11 @@
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">Produtos</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="{% url 'produto:produto_list' %}">Produtos</a>
-                    <a class="dropdown-item" href="{% url 'produto:import_csv' %}">Importar CSV</a>
+                     <a class="dropdown-item" href="{% url 'produto:produto_list' %}">Produtos</a>
+                     <a class="dropdown-item" href="{% url 'produto:import_csv' %}">Importar CSV</a>
                      <a class="dropdown-item" href="{% url 'produto:export_csv' %}">Exportar CSV</a>
+                     <a class="dropdown-item" href="{% url 'produto:import_xlsx' %}">Importar XLSX</a>
+                     <a class="dropdown-item" href="{% url 'produto:export_xlsx' %}">Exportar XLSX</a>
 
                 </div>
             </li>
